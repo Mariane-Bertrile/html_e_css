@@ -1,0 +1,31 @@
+
+body{
+    text-align: center;
+    background-color: azure;
+   
+}
+
+.Artigo1{
+background-color: rgb(208, 216, 255);
+padding: 35px;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+max-width: 900px;
+}
+
+
+.Artigo2{
+background-color: rgb(215, 199, 255);
+padding: 35px;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+max-width: 900px;
+}
+
+
+
+.Artigo3{
+background-color: rgb(255, 190, 190);
+padding: 35px;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+max-width: 900px;
+}
+

@@ -1,0 +1,49 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 20px;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+article header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+article header h1 {
+  color: #007b00;
+  font-size: 28px;
+}
+
+article header p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Seções do artigo */
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #005500;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 16px;
+  text-align: justify;
+}

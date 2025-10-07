@@ -1,0 +1,126 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.cabecalho {
+  background-color: #10007b;
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.cabecalho h1 {
+  margin: 0;
+}
+
+.navegacao a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.navegacao a:hover {
+  text-decoration: underline;
+}
+
+.conteudo {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  gap: 20px;
+  padding: 0 10px;
+}
+
+
+.posts {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.artigo {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.cabecalho-artigo h2 {
+  margin: 0 0 5px;
+  color: #04007b;
+}
+
+.data-publicacao {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.conteudo-artigo p {
+  margin: 10px 0;
+}
+
+.rodape-artigo {
+  font-size: 14px;
+  color: #555;
+  margin-top: 15px;
+}
+
+
+.barra-lateral {
+  flex: 1; 
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.barra-lateral h3 {
+  color: #000e7b;
+  margin-top: 0;
+}
+
+.barra-lateral ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.barra-lateral li {
+  margin: 10px 0;
+}
+
+.barra-lateral a {
+  text-decoration: none;
+  color: #333;
+}
+
+.barra-lateral a:hover {
+  color: #08007b;
+}
+
+.rodape-geral {
+  background-color: #08007b;
+  color: #fff;
+  text-align: center;
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+
+.rodape-geral a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.rodape-geral a:hover {
+  text-decoration: underline;
+}

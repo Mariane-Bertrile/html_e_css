@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  color: #007b00;
+}
+
+p {
+  width: 65%;
+  float: left;
+  text-align:left;
+}
+
+aside {
+  width: 30%;
+  float: right;               
+  background-color: #fff8dc;   
+  border-left: 4px solid #ffcc00;
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+aside h3 {
+  color: #cc9900;
+}
+
+ul {
+  padding-left: 20px;
+}
+
